@@ -14,8 +14,8 @@ const char* ntpServer = "pool.ntp.org"; // sets site to get time from
 const long  gmtOffset_sec = -21600; // time offset to get CDT
 const int   daylightOffset_sec = 0; // daylight savings time offset
 // WiFi credentials
-const char* ssid = "12mini iPhone";         // change SSID
-const char* password = "cH124680";    // change password
+const char* ssid = "";         // change SSID
+const char* password = "";    // change password
 // Google script ID and required credentials
 String GOOGLE_SCRIPT_ID = "AKfycbzPwv9zahTks-2ReYFqFVcUsuQGO3X-jeGpCAygZBFA-iJzwRxUu4xXPPUcX6EPtEmS";    // change Gscript ID
 int count = 0;
