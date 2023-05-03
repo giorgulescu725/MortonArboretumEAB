@@ -10,9 +10,9 @@
 
 // ------------------------------------------------------------
 
-const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = -21600;
-const int   daylightOffset_sec = 0;
+const char* ntpServer = "pool.ntp.org"; // sets site to get time from
+const long  gmtOffset_sec = -21600; // time offset to get CDT
+const int   daylightOffset_sec = 0; // daylight savings time offset
 // WiFi credentials
 const char* ssid = "12mini iPhone";         // change SSID
 const char* password = "cH124680";    // change password
