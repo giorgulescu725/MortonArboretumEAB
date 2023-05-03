@@ -1,6 +1,6 @@
 # MortonArboretumEAB
 ## What??
-This is a repository holding some files concerning measuring emerald ashborer larvae activity through an ESP32W. It uses the PCNT module to obtain
+This is a repository holding some files concerning measuring emerald ashborer larvae activity through an ESP32W. We were assigned this as a capstone project from Loyola Chicago, working with the Morton Arboretum. It uses the PCNT module to obtain
 frequency values from analog microphones and uploads them to a Google Sheet. The sheet must be made per tree, copying the sheet_code into a script
 and putting the script ID into the .ino file.
 
