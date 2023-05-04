@@ -17,7 +17,7 @@ const int   daylightOffset_sec = 0; // daylight savings time offset
 const char* ssid = "";         // change SSID
 const char* password = "";    // change password
 // Google script ID and required credentials
-String GOOGLE_SCRIPT_ID = "AKfycbzPwv9zahTks-2ReYFqFVcUsuQGO3X-jeGpCAygZBFA-iJzwRxUu4xXPPUcX6EPtEmS";    // change Gscript ID
+String GOOGLE_SCRIPT_ID = "";    // change Gscript ID
 int count = 0;
 
 /* ------------------------------------------------------------
