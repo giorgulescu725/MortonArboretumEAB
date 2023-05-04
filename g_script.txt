@@ -1,0 +1,17 @@
+var sheet_id = "";
+var sheet_name = "";
+function doGet(e){
+var ss = SpreadsheetApp.openById(sheet_id);
+var sheet = ss.getSheetByName(sheet_name);
+var Hour = Number(e.parameter.Hour);
+var Minute = Number(e.parameter.Minute);
+var Second = Number(e.parameter.Second);
+var FREQ1 = Number(e.parameter.FREQ1);
+var FREQ2 = Number(e.parameter.FREQ2);
+var FREQ3 = Number(e.parameter.FREQ3);
+var FREQ4 = Number(e.parameter.FREQ4);
+var Time = Hour + ":" + Minute + ":" + Second;
+
+sheet.appendRow([Time,FREQ1,FREQ2,FREQ3,FREQ4]);
+
+}
